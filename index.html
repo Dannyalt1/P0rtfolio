@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <style>
         body {
-            font-family: "Arial", serif;
-            background-color: rgb(5, 0, 20);
-            color: #f4f4f4;
+            font-family: "Arial", sans-serif;
             margin: 0;
             padding: 0;
+            background-color: rgb(5, 0, 20);
+            color: #f4f4f4;
             background-image: url('Horizon2.jpg');
             background-size: cover;
             background-position: center;
@@ -18,8 +19,7 @@
         }
 
         section {
-            padding: 10px 20px;
-            text-align: left;
+            padding: 20px;
             position: relative;
             border-bottom: 2px solid rgba(255, 255, 255, 0.1);
         }
@@ -27,7 +27,7 @@
         h1 {
             margin: 0;
             font-size: 2rem;
-            color: rgb(255, 255, 255);
+            color: white;
             position: relative;
             display: inline-block;
         }
@@ -47,17 +47,18 @@
             width: 100%;
         }
 
-        .section-title-gif, .spongebob-gif {
+        .section-title-gif,
+        .spongebob-gif {
             display: none;
             position: absolute;
             top: 0;
             left: 13.5%;
-            margin-left: 10px;
             width: 70px;
             height: auto;
         }
 
-        section:hover .section-title-gif, #projects:hover .spongebob-gif {
+        section:hover .section-title-gif,
+        #projects:hover .spongebob-gif {
             display: block;
         }
 
@@ -80,7 +81,7 @@
 
         #projects {
             background: transparent;
-            padding: 20px 20px;
+            padding: 20px;
         }
 
         .container {
@@ -102,8 +103,6 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
             cursor: pointer;
-            background-size: cover;
-            background-position: center;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -124,8 +123,6 @@
             right: 0;
             bottom: 0;
             background-color: rgba(0, 0, 0, 0.4);
-            background-size: cover;
-            background-position: center;
             opacity: 0;
             transition: opacity 0.5s ease;
             z-index: 1;
@@ -141,13 +138,12 @@
 
         .project:nth-child(2):hover::after {
             background-image: url('Knight.jpg');
-        } 
+        }
 
         .content {
             padding: 20px;
             background-color: transparent;
             color: pink;
-            height: 100%;
             position: absolute;
             top: 0;
             left: 0;
@@ -181,9 +177,9 @@
         }
     </style>
 </head>
+
 <body>
 
-    <!-- Profile Section -->
     <section id="profile">
         <img src="Car4.jpg" alt="Profile Picture">
         <div>
@@ -192,12 +188,11 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about">
         <h1>About Me:</h1>
         <img src="Wave2.gif" alt="Hover GIF" class="section-title-gif">
-        <p>HELLO!!! My name is Dandreb B. Altavano, I am a student of Golden Link College for 10-11 years. I am 15 years old and I am currently on the ninth grade.</p>
-        <p>As of the moment I don't have any occupations cause I'm still too young to work. I consider myself an above-average student because I don't struggle as much in terms of academics. It is rare for me to get a failing grade but it is also rare for me to get an A in my grade card.</p>
+        <p>HELLO!!! My name is Dandreb B. Altavano, I am a student of Golden Link College for 10-11 years. I am 15 years old and I am currently in the ninth grade.</p>
+        <p>As of now, I don't have any occupations because I'm still too young to work. I consider myself an above-average student because I don't struggle as much in terms of academics. It is rare for me to get a failing grade, but it is also rare for me to get an A in my grade card.</p>
         <p>Speaking of subjects, my dominant subject is Mathematics...</p>
     </section>
 
@@ -207,16 +202,16 @@
         <img src="Spongebob2.gif" alt="SpongeBob GIF" class="spongebob-gif">
         <div class="container">
             <div class="project">
-                <img src="Weblog.jpg" alt="Project 1">
+                <img src="Weblog.jpg" alt="Weblog Project Image">
                 <div class="content">
-                    <p>A weblog about me, the creator, contains information like my hobbies and many more.</p>
+                    <p>A weblog about me, the creator, containing information like my hobbies and many more.</p>
                     <a href="https://dannyalt1.github.io/Weblog/" class="project-link" target="_blank">View on GitHub</a>
                 </div>
             </div>
             <div class="project">
-                <img src="Declamation.jpg" alt="Project 2">
+                <img src="Declamation.jpg" alt="Declamation Project Image">
                 <div class="content">
-                    <p>A short weblog about my experience of our school's 2025 Declamation Program.</p>
+                    <p>A short weblog about my experience at our school's 2025 Declamation Program.</p>
                     <a href="https://dannyalt1.github.io/Declamation/" class="project-link" target="_blank">View on GitHub</a>
                 </div>
             </div>
@@ -225,8 +220,10 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 My Portfolio. (Dandreb B, Altavano)</p>
+        <p>&copy; 2025 My Portfolio. (Dandreb B. Altavano)</p>
     </footer>
 
 </body>
+
 </html>
+
